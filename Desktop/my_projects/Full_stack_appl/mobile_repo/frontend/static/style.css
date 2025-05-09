@@ -1,0 +1,15 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+#mobile-list div{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+form input, form button{
+    margin: 5px;
+    padding: 5px;
+}

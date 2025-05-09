@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>Mobile details</title>
+</head>
+<body>
+    <h2>📱 list of all Mobiles</h2>
+    <div id="mobile-list"></div>
+    <h2>📱 Add New Mobile</h2>
+    <form id="add-new-mobiles">
+        <input type="text" id="brand-name" placeholder="Mobile Name" required >
+        <input type="text" id="mobile-price" placeholder="Price" required>
+        <button type="submit">Add Mobile</button>
+    </form>
+
+    <script src="{%  static 'mobile.js' %}"></script>
+    
+    
+</body>
+</html>
